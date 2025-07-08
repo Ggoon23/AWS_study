@@ -7,9 +7,9 @@ jwt:
 
 cloud:
   aws:
-    credentials:
-      access-key: AKIA2IW5YNFRN47BKXV7
-      secret-key: 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
+    credentials: ### aws키로 채울것
+      access-key: 
+      secret-key: 
     s3:
       bucket: block-review-service
       region: ap-northeast-2
