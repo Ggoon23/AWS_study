@@ -1,0 +1,27 @@
+# Core Framework
+fastapi>=0.115.2,<1.0.0
+uvicorn>=0.24.0,<0.25.0
+starlette>=0.40.0,<1.0.0
+
+# Authentication
+python-jose[cryptography]>=3.3.0,<3.4.0
+passlib[bcrypt]>=1.7.4,<1.8.0
+
+# Database
+sqlalchemy>=2.0.23,<2.1.0
+aiomysql>=0.2.0,<0.3.0
+
+# AWS
+boto3>=1.29.3,<1.30.0
+
+# Utils
+python-dotenv>=1.0.0,<1.1.0
+python-multipart>=0.0.18
+email-validator>=2.1.0,<2.2.0
+httpx>=0.24.1
+certifi>=2024.7.4,<2025.0.0
+
+# Pydantic
+pydantic>=2.8.0,<3.0.0
+pydantic-settings>=2.4.0,<3.0.0
+pydantic-core>=2.33.2 

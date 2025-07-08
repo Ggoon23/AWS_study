@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+
+jwt:
+  secret: dkdowkdksjekwodkskdowkdfjwkdksoedkdsokdkdkdoskdksodkdkdok
+
+cloud:
+  aws:
+    credentials:
+      access-key: AKIA2IW5YNFRN47BKXV7
+      secret-key: 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
+    s3:
+      bucket: block-review-service
+      region: ap-northeast-2

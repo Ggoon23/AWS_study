@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://data.cf6wqwb.ap-northeast-2.rds.amazonaws.com:3306/review_db
+    username: review_user2
+    password: 11hello#
+  jpa:
+    show-sql: true
+
+server:
+  port: 80
